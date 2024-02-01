@@ -38,7 +38,7 @@ const HeaderWebsite = () => {
       <div className='bg-black h-[32px]  w-full flex justify-around items-center'>
         <div></div>
         <div></div>
-        <div className='text-white text-[12px]'>
+        <div className='text-white text-[15px]'>
           <span className='mx-1'>Đăng nhập</span>
           <span className='mx-1'>|</span>
           <span className='mx-1'>Đăng ký</span>
@@ -55,10 +55,10 @@ const HeaderWebsite = () => {
           <div> 
             <select id="countries" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full py-1 px-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
               <option selected>Chọn Rạp</option>
-              <option value="US">United States</option>
-              <option value="CA">Canada</option>
-              <option value="FR">France</option>
-              <option value="DE">Germany</option>
+              <option value="US">Mỹ Đình</option>
+              <option value="CA">Thanh Xuân</option>
+              <option value="FR">Nha Trang</option>
+              <option value="DE">Hạ Long</option>
             </select>
           </div>  
         </div>
@@ -69,7 +69,7 @@ const HeaderWebsite = () => {
             className='w-8 mr-10' src='https://static.vecteezy.com/system/resources/previews/010/896/688/original/menu-icon-sign-symbol-design-free-png.png' />
                       </div>
         <div className="hidden w-full md:block md:w-auto " id="navbar-default">
-      <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-4 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 v">
        {Menu?.map((item)=>{
         return (<>
          <li>
